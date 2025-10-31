@@ -261,6 +261,13 @@ ul {
   background-size: cover;
   max-width: 320px;
 }
+
+@media screen and (min-resolution: 2x) {
+  .page{
+    background: linear-gradient(var(--grey)), url(../images/people-office@2x.jpg) no-repeat center;
+    background-size: cover;
+  }
+}
 /* page, footer and modal buttons*/
 
 .page-title,
